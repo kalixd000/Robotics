@@ -35,11 +35,11 @@ nav{
     color: #333;
      font-weight: 350;
 }
-#hero {
+ p1{
     padding-top: 2rem;
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('/img/portada.webp');
+                url('/img/port.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -50,30 +50,18 @@ nav{
     color: white;
     padding: 0 1rem;
 }
-
-#hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.btn-1 {
-    background-color: #ff6b6b;
-    color: white;
-    border: none;
-    padding: 110rem 2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 2rem;
-}
-
-.btn-1:hover {
-    background-color: #fa5a5a;
-}
 footer{
     background-color: #333;
     color: #ffff;
     text-align: center;
     padding: 1rem;
+}
+p1{
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 1.5;
+    padding: 1;
 }
 @media screen and (max-width: 430px) {
   nav {
