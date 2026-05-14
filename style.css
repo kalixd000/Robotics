@@ -12,26 +12,41 @@ body{
     min-height: 100vh;
     margin: 0;
 }
+button {
+  margin: 1rem;
+  padding: .5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logo{
+  font-size: 2.5rem;
+  font-weight: 350;
+  color: rgb(51, 36, 36);
+}
+footer{
+  background-color: #333;
+  color: #ffff;
+  text-align: center;
+  padding: 1rem;
+}
 header{
     box-shadow: 0 2px 5x rgba(0, 0, 0, 0.1);
 
 }
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    max-width: 1200xp;
-    margin: 0 auto;
-    background-color: #77777777;
-    color: #ffff;
-    text-align: center;
-    padding: 1rem;
-}
-.logo{
-    font-size: 2.5rem;
-    font-weight: 350;
-    color: rgb(51, 36, 36);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200xp;
+  margin: 0 auto;
+  background-color: #77777777;
+  color: #ffff;
+  text-align: center;
+  padding: 1rem;
 }
 .nav-links{
     display: flex;
@@ -43,54 +58,30 @@ nav{
     color: #333;
      font-weight: 350;
 }
- p1{
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    padding-top: 2rem;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-     ('https://raw.githubusercontent.com/kalixd000/Robotics/main/portada.webp');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 0 1rem;
-}
-footer{
-    background-color: #333;
-    color: #ffff;
-    text-align: center;
-    padding: 1rem;
-}
-p1{
-    line-height: 1.7;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    margin: 1.5;
-    padding: 1;
-    font-size: 1.2rem;
-}
-@media screen and (max-width: 430px) {
-  nav {
-    flex-direction: column;
-    padding: 1rem;
-  }
 
-  .nav-links {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 1rem;
-    gap: 1rem;
+@media screen and (max-width: 430px) {
+    nav {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 1rem;
+      gap: 1rem;
+    }
   }
+  img {
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.Subtema{
-    font-size: 2rem;
-    text-align: center;
-}
-p2{
-    font-size: 1.2rem;
+.pepito{
+  font-size: 1.1rem;
+  text-align: justify;
+  padding: 1rem 2rem;
+  
 }
